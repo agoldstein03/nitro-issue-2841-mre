@@ -11,6 +11,9 @@ importers:
       '@solidjs/start':
         specifier: ^1.0.10
         version: 1.0.10(solid-js@1.9.3)(vinxi@0.4.3(@types/node@22.8.7)(ioredis@5.4.1)(terser@5.36.0)(typescript@5.6.3))(vite@5.4.10(@types/node@22.8.7)(terser@5.36.0))
+      nitropack:
+        specifier: 2.10.0
+        version: 2.10.0(typescript@5.6.3)
       solid-js:
         specifier: ^1.9.2
         version: 1.9.3
@@ -1837,8 +1840,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nitropack@2.10.1:
-    resolution: {integrity: sha512-q8w/9W9KLKTlFx0wBALecCRlJHT8n93rVilm2LY9/oOuMUeDGJdG2G3xUuJqRnF/Q217kDHJRSIZGJTUIydnCA==}
+  nitropack@2.10.0:
+    resolution: {integrity: sha512-i93qB6o2dssqX+Q6lhShGgADTzde6Ev+W23lMe60XhibhHbgsZh2AZX+yIYclHnBsJA/GWvjHkY6nJtx6GRL+g==}
     engines: {node: ^16.11.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
@@ -4242,7 +4245,7 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  nitropack@2.10.1(typescript@5.6.3):
+  nitropack@2.10.0(typescript@5.6.3):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@netlify/functions': 2.8.2
@@ -4946,7 +4949,7 @@ snapshots:
       hookable: 5.5.3
       http-proxy: 1.18.1
       micromatch: 4.0.8
-      nitropack: 2.10.1(typescript@5.6.3)
+      nitropack: 2.10.0(typescript@5.6.3)
       node-fetch-native: 1.6.4
       path-to-regexp: 6.3.0
       pathe: 1.1.2
